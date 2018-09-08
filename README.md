@@ -74,3 +74,7 @@ cover OOP for Swift.
 #### 1. Chess game (2017)
 
 tutorial how to develope chess terminal using Java.
+
+#### 2. Java NOOB (September 2018)
+
+covered Object Oriented, Collections, Exceptions, File I/O, Standard I/O, String, Date, Date-TimeZone-Locale
