@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Spring (1.0.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - Spring (from `https://github.com/irekasoft/Spring.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: master
+    :git: https://github.com/irekasoft/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 7e5dcab1ca7d65983b6e20be332bdc99abfdf968
+    :git: https://github.com/irekasoft/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+
+PODFILE CHECKSUM: bcdd46fcbfa314794fa387d4adf952eaea6030c4
+
+COCOAPODS: 1.2.0

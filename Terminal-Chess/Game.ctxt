@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Game()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Game\r\n
+comment1.params=
+comment1.target=void\ newGame()
+comment2.params=
+comment2.target=void\ displayBoard()
+comment3.params=
+comment3.target=void\ whiteStartPosition()
+comment3.text=\r\n\ initialise\ white\ pieces\ position\r\n
+comment4.params=
+comment4.target=void\ blackStartPosition()
+comment4.text=\r\n\ initialise\ black\ pieces\ position\r\n
+comment5.params=currentPos\ newPos
+comment5.target=boolean\ turn(int[][],\ int[][])
+numComments=6

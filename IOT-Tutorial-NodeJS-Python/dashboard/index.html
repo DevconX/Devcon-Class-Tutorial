@@ -1,0 +1,13 @@
+<button id="acap-led" style="width:200px;height:200px;">ON LED ACAP</button>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="socket.io.js"></script>
+<script>
+var socket = io('http://ec2-13-229-88-110.ap-southeast-1.compute.amazonaws.com:5000/iot', {reconnect: true});
+var val = 0;
+$('#acap-led').click(function(){
+  socket.emit('led', JSON.stringify({'led': 'OK', 'val':val}));
+  if(val == 0) val = 1;
+  else val = 0;
+})
+</script>

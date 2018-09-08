@@ -1,0 +1,12 @@
+<p id="dht11"></p>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="socket.io.js"></script>
+<script>
+var socket = io('http://ec2-13-229-88-110.ap-southeast-1.compute.amazonaws.com:5000/iot', {reconnect: true});
+
+socket.on('dht11', function(msg){
+  val = JSON.parse(msg);
+  $('#dht11').append(val['temperature'] + ' ' + val['humidity']+'<br>');
+});
+</script>

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MovementType\ movement()
+comment0.text=\r\n\ How\ the\ piece\ move\r\n\ Refer\ MovementType\ class\r\n
+comment1.params=
+comment1.target=boolean\ isOneDirection()
+comment1.text=\r\n\ PAWN\ can\ only\ move\ forward\r\n\ while\ other\ piece\ can\ move\ in\ any\ direction\r\n
+comment2.params=
+comment2.target=boolean\ isUpgradable()
+comment2.text=\r\n\ Can\ the\ piece\ upgrade\r\n\ only\ PAWN\ can\ be\ upgrade\r\n
+comment3.params=
+comment3.target=ChessType\ getType()
+comment3.text=\r\n\ Get\ the\ piece\ type\r\n\ Refer\ ChessType\ class\r\n
+numComments=4
