@@ -39,6 +39,10 @@ flexible parallel computing using Dask.
 
 Deep learning tutorial using Tensorflow.
 
+#### 10. Crawler with Sentiment Analysis (Devcon 5)
+
+Crawler using beautiful soup with sentiment analysis.
+
 ## Javascript
 
 #### 1. IOT (2018)
